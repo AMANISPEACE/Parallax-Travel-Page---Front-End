@@ -1,0 +1,82 @@
+html {
+  box-sizing: border-box;
+}
+
+* , *::after, *::before {
+  box-sizing: inherit;
+}
+
+body{
+  margin: 0%;
+  padding: 0%;
+}
+.first-image , .second-image , .third-image ,   
+.fourth-image , .fifth-image {
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+
+}
+
+.first-image{
+  background-image: url(Images/City1.jpg);
+  min-height: 550px;
+}
+
+.second-image{
+  background-image: url(Images/city2.jpg);
+  min-height: 550px;
+  opacity: 0.8;
+}
+
+.third-image{
+  background-image: url(Images/city3.jpg);
+  min-height: 550px;
+}
+
+.fourth-image{
+  background-image: url(Images/city4.jpg);
+  min-height: 550px;
+  opacity: 0.8;
+}
+
+.fifth-image{
+  background-image: url(Images/city5.jpg);
+  min-height: 550px;
+
+}
+
+section{
+  text-align: center;
+  padding: 3rem 5rem ;
+}
+
+.section-light{
+  background-color: #f4f4f4;
+  color:rgb(0, 0, 0);
+}
+
+.section-dark{
+  background-color: #1f2428;
+  color:#ddd;
+}
+
+.image{
+position: relative;
+}
+
+.image div {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: aliceblue;
+  font-size: 50px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+.heading{
+  background-color: rgb(37, 28, 28);
+}
