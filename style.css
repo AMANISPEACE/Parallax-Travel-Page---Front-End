@@ -20,18 +20,18 @@ body{
 }
 
 .first-image{
-  background-image: url(Images/City1.jpg);
+  background-image: url(City1.jpg);
   min-height: 550px;
 }
 
 .second-image{
-  background-image: url(Images/city2.jpg);
+  background-image: url(city2.jpg);
   min-height: 550px;
   opacity: 0.8;
 }
 
 .third-image{
-  background-image: url(Images/city3.jpg);
+  background-image: url(city3.jpg);
   min-height: 550px;
 }
 
@@ -42,7 +42,7 @@ body{
 }
 
 .fifth-image{
-  background-image: url(Images/city5.jpg);
+  background-image: url(city5.jpg);
   min-height: 550px;
 
 }
